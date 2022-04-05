@@ -640,7 +640,7 @@
                     <div class="w-full sm:w-auto">
                         
                         <div class="w-full sm:w-auto">
-                            <button
+                            <button style = "background:blue"
                             :class="{'scale-100': !scrolledFromTop, 'scale-75 translate-x-8': scrolledFromTop}"
                             @click="contactModalOpen = true"
                                 class="inline-flex items-center justify-center w-full px-5 py-3 text-base font-medium transition border-2 border-transparent rounded-md  text-primary-foreground focus:outline-none hover:bg-primary-darker sm:w-auto bg-primary focus-visible:ring-2 ring-primary ring-opacity-75 ring-offset-2"
@@ -661,6 +661,10 @@
                         
                         <div class="inline-flex w-full ml-3 sm:w-auto">
                             <a
+                                style="
+                                background: green;
+                                color: white;
+                                border-color: white;"
                                 target = "_blank" 
                                 href="tel:+1 440-321-2202"
                                 :class="{'scale-100': !scrolledFromTop, 'scale-75': scrolledFromTop}"
@@ -884,6 +888,7 @@
                     <div class="d-none p-1 bg-primary sm:bg-gray-50">
                         
                             <button
+                            style="background:blue"
                             @click="contactModalOpen = true"
                             class="relative block w-full px-5 py-3 font-medium text-center rounded-md  focus:outline-none focus:ring focus:z-10 text-white sm:text-secondary  hover:bg-gray-100"
                             >
@@ -892,6 +897,10 @@
                         
                         
                             <a
+                                style="
+                                background: green;
+                                color: white;
+                                border-color: white;"
                                 target = "_blank" 
                                 href="tel:+1 440-321-2202"
                                 :class="{'scale-100': !scrolledFromTop, 'scale-75': scrolledFromTop}"
@@ -2214,7 +2223,7 @@
                 <!-- Header -->
                 <div class="relative px-6 bg-white">
                     <!-- Title -->
-                    <h2 class="mt-6 text-lg font-medium text-center" :id="$id('modal-title')">Send us a text</h2>
+                    <h2 class="mt-6 text-lg font-medium text-center" :id="$id('modal-title')" style="background:blue" >Send us a text</h2>
                     <!-- Small overlay for scrolling area  -->
                     <div aria-hidden="true" class="absolute inset-x-0 h-8 -bottom-8 bg-gradient-to-b from-white"></div>
                     <button
