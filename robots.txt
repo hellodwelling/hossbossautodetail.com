@@ -1,3 +1,0 @@
-User-agent: *
-Disallow: 
-Sitemap: https://hossbossautodetail.com/sitemap.xml
